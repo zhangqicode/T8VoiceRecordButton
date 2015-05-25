@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6DA87E361B1316B200DF1494 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E351B1316B200DF1494 /* main.m */; };
+		6DA87E391B1316B200DF1494 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E381B1316B200DF1494 /* AppDelegate.m */; };
+		6DA87E3C1B1316B300DF1494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E3B1B1316B300DF1494 /* ViewController.m */; };
+		6DA87E3F1B1316B300DF1494 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E3D1B1316B300DF1494 /* Main.storyboard */; };
+		6DA87E411B1316B300DF1494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E401B1316B300DF1494 /* Images.xcassets */; };
+		6DA87E441B1316B300DF1494 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E421B1316B300DF1494 /* LaunchScreen.xib */; };
+		6DA87E501B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E4F1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m */; };
+		6DA87E5C1B13172700DF1494 /* T8VoiceRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */; };
+		6DA87E601B13194A00DF1494 /* UUProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */; };
+		6DA87E661B131D7400DF1494 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA87E631B131D7400DF1494 /* libmp3lame.a */; };
+		6DA87E671B131D7400DF1494 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E651B131D7400DF1494 /* Mp3Recorder.m */; };
+		6DA87E6A1B13236B00DF1494 /* Chat_record_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E691B13236B00DF1494 /* Chat_record_circle.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DA87E4A1B1316B300DF1494 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DA87E281B1316B200DF1494 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DA87E2F1B1316B200DF1494;
+			remoteInfo = T8VoiceRecordButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6DA87E301B1316B200DF1494 /* T8VoiceRecordButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T8VoiceRecordButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA87E341B1316B200DF1494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA87E351B1316B200DF1494 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DA87E371B1316B200DF1494 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DA87E381B1316B200DF1494 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DA87E3A1B1316B200DF1494 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DA87E3B1B1316B300DF1494 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DA87E3E1B1316B300DF1494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DA87E401B1316B300DF1494 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6DA87E431B1316B300DF1494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6DA87E491B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T8VoiceRecordButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DA87E4E1B1316B300DF1494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DA87E4F1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T8VoiceRecordButtonDemoTests.m; sourceTree = "<group>"; };
+		6DA87E5A1B13172700DF1494 /* T8VoiceRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T8VoiceRecordButton.h; sourceTree = "<group>"; };
+		6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T8VoiceRecordButton.m; sourceTree = "<group>"; };
+		6DA87E5E1B13194A00DF1494 /* UUProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressHUD.h; sourceTree = "<group>"; };
+		6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressHUD.m; sourceTree = "<group>"; };
+		6DA87E621B131D7400DF1494 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		6DA87E631B131D7400DF1494 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		6DA87E641B131D7400DF1494 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
+		6DA87E651B131D7400DF1494 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
+		6DA87E691B13236B00DF1494 /* Chat_record_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat_record_circle.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DA87E2D1B1316B200DF1494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA87E661B131D7400DF1494 /* libmp3lame.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA87E461B1316B300DF1494 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6DA87E271B1316B200DF1494 = {
+			isa = PBXGroup;
+			children = (
+				6DA87E321B1316B200DF1494 /* T8VoiceRecordButtonDemo */,
+				6DA87E4C1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests */,
+				6DA87E311B1316B200DF1494 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6DA87E311B1316B200DF1494 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E301B1316B200DF1494 /* T8VoiceRecordButtonDemo.app */,
+				6DA87E491B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DA87E321B1316B200DF1494 /* T8VoiceRecordButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E371B1316B200DF1494 /* AppDelegate.h */,
+				6DA87E381B1316B200DF1494 /* AppDelegate.m */,
+				6DA87E3A1B1316B200DF1494 /* ViewController.h */,
+				6DA87E3B1B1316B300DF1494 /* ViewController.m */,
+				6DA87E591B13170400DF1494 /* T8VoiceRecordButton */,
+				6DA87E3D1B1316B300DF1494 /* Main.storyboard */,
+				6DA87E401B1316B300DF1494 /* Images.xcassets */,
+				6DA87E421B1316B300DF1494 /* LaunchScreen.xib */,
+				6DA87E331B1316B200DF1494 /* Supporting Files */,
+			);
+			path = T8VoiceRecordButtonDemo;
+			sourceTree = "<group>";
+		};
+		6DA87E331B1316B200DF1494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E341B1316B200DF1494 /* Info.plist */,
+				6DA87E351B1316B200DF1494 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DA87E4C1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E4F1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m */,
+				6DA87E4D1B1316B300DF1494 /* Supporting Files */,
+			);
+			path = T8VoiceRecordButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		6DA87E4D1B1316B300DF1494 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E4E1B1316B300DF1494 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6DA87E591B13170400DF1494 /* T8VoiceRecordButton */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E681B13236B00DF1494 /* Images */,
+				6DA87E611B131D7400DF1494 /* VoiceLib */,
+				6DA87E5D1B13194A00DF1494 /* UUProgressHUD */,
+				6DA87E5A1B13172700DF1494 /* T8VoiceRecordButton.h */,
+				6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */,
+			);
+			path = T8VoiceRecordButton;
+			sourceTree = SOURCE_ROOT;
+		};
+		6DA87E5D1B13194A00DF1494 /* UUProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E5E1B13194A00DF1494 /* UUProgressHUD.h */,
+				6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */,
+			);
+			path = UUProgressHUD;
+			sourceTree = "<group>";
+		};
+		6DA87E611B131D7400DF1494 /* VoiceLib */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E621B131D7400DF1494 /* lame.h */,
+				6DA87E631B131D7400DF1494 /* libmp3lame.a */,
+				6DA87E641B131D7400DF1494 /* Mp3Recorder.h */,
+				6DA87E651B131D7400DF1494 /* Mp3Recorder.m */,
+			);
+			path = VoiceLib;
+			sourceTree = "<group>";
+		};
+		6DA87E681B13236B00DF1494 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6DA87E691B13236B00DF1494 /* Chat_record_circle.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DA87E2F1B1316B200DF1494 /* T8VoiceRecordButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA87E531B1316B300DF1494 /* Build configuration list for PBXNativeTarget "T8VoiceRecordButtonDemo" */;
+			buildPhases = (
+				6DA87E2C1B1316B200DF1494 /* Sources */,
+				6DA87E2D1B1316B200DF1494 /* Frameworks */,
+				6DA87E2E1B1316B200DF1494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T8VoiceRecordButtonDemo;
+			productName = T8VoiceRecordButtonDemo;
+			productReference = 6DA87E301B1316B200DF1494 /* T8VoiceRecordButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DA87E481B1316B300DF1494 /* T8VoiceRecordButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DA87E561B1316B300DF1494 /* Build configuration list for PBXNativeTarget "T8VoiceRecordButtonDemoTests" */;
+			buildPhases = (
+				6DA87E451B1316B300DF1494 /* Sources */,
+				6DA87E461B1316B300DF1494 /* Frameworks */,
+				6DA87E471B1316B300DF1494 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DA87E4B1B1316B300DF1494 /* PBXTargetDependency */,
+			);
+			name = T8VoiceRecordButtonDemoTests;
+			productName = T8VoiceRecordButtonDemoTests;
+			productReference = 6DA87E491B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DA87E281B1316B200DF1494 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "琦张";
+				TargetAttributes = {
+					6DA87E2F1B1316B200DF1494 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					6DA87E481B1316B300DF1494 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 6DA87E2F1B1316B200DF1494;
+					};
+				};
+			};
+			buildConfigurationList = 6DA87E2B1B1316B200DF1494 /* Build configuration list for PBXProject "T8VoiceRecordButtonDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DA87E271B1316B200DF1494;
+			productRefGroup = 6DA87E311B1316B200DF1494 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DA87E2F1B1316B200DF1494 /* T8VoiceRecordButtonDemo */,
+				6DA87E481B1316B300DF1494 /* T8VoiceRecordButtonDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DA87E2E1B1316B200DF1494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA87E6A1B13236B00DF1494 /* Chat_record_circle.png in Resources */,
+				6DA87E3F1B1316B300DF1494 /* Main.storyboard in Resources */,
+				6DA87E441B1316B300DF1494 /* LaunchScreen.xib in Resources */,
+				6DA87E411B1316B300DF1494 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA87E471B1316B300DF1494 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DA87E2C1B1316B200DF1494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA87E3C1B1316B300DF1494 /* ViewController.m in Sources */,
+				6DA87E5C1B13172700DF1494 /* T8VoiceRecordButton.m in Sources */,
+				6DA87E391B1316B200DF1494 /* AppDelegate.m in Sources */,
+				6DA87E361B1316B200DF1494 /* main.m in Sources */,
+				6DA87E671B131D7400DF1494 /* Mp3Recorder.m in Sources */,
+				6DA87E601B13194A00DF1494 /* UUProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DA87E451B1316B300DF1494 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DA87E501B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DA87E4B1B1316B300DF1494 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DA87E2F1B1316B200DF1494 /* T8VoiceRecordButtonDemo */;
+			targetProxy = 6DA87E4A1B1316B300DF1494 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DA87E3D1B1316B300DF1494 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA87E3E1B1316B300DF1494 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DA87E421B1316B300DF1494 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DA87E431B1316B300DF1494 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DA87E511B1316B300DF1494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DA87E521B1316B300DF1494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DA87E541B1316B300DF1494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T8VoiceRecordButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/T8VoiceRecordButton/VoiceLib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6DA87E551B1316B300DF1494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = T8VoiceRecordButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/T8VoiceRecordButton/VoiceLib",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6DA87E571B1316B300DF1494 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T8VoiceRecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T8VoiceRecordButtonDemo.app/T8VoiceRecordButtonDemo";
+			};
+			name = Debug;
+		};
+		6DA87E581B1316B300DF1494 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = T8VoiceRecordButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/T8VoiceRecordButtonDemo.app/T8VoiceRecordButtonDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DA87E2B1B1316B200DF1494 /* Build configuration list for PBXProject "T8VoiceRecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA87E511B1316B300DF1494 /* Debug */,
+				6DA87E521B1316B300DF1494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DA87E531B1316B300DF1494 /* Build configuration list for PBXNativeTarget "T8VoiceRecordButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA87E541B1316B300DF1494 /* Debug */,
+				6DA87E551B1316B300DF1494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6DA87E561B1316B300DF1494 /* Build configuration list for PBXNativeTarget "T8VoiceRecordButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DA87E571B1316B300DF1494 /* Debug */,
+				6DA87E581B1316B300DF1494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DA87E281B1316B200DF1494 /* Project object */;
+}
