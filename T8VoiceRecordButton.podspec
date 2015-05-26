@@ -8,14 +8,8 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/zhangqippp/T8VoiceRecordButton"
   # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { “zhangqippp” => “zhangqi@t8.io” }
+  s.author           = { "zhangqippp" => "zhangqi@t8.io" }
   s.source           = { :git => "https://github.com/zhangqippp/T8VoiceRecordButton.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/NAME'
-
-  s.platform     = :ios, '4.3'
-  # s.ios.deployment_target = '5.0'
-  # s.osx.deployment_target = '10.7'
-  s.requires_arc = true
 
   s.source_files = 'T8VoiceRecordButton/*'
   # s.resources = 'Assets'
