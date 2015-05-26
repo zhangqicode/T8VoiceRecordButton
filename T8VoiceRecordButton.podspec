@@ -10,13 +10,18 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "zhangqippp" => "zhangqi@t8.io" }
   s.source           = { :git => "https://github.com/zhangqippp/T8VoiceRecordButton.git", :tag => s.version.to_s }
+  # s.social_media_url = "https://twitter.com/NAME"
 
-  s.source_files = 'T8VoiceRecordButton/*'
-  # s.resources = 'Assets'
+  s.platform     = :ios, "7.0"
+  # s.ios.deployment_target = "5.0"
+  # s.osx.deployment_target = "10.7"
+  s.requires_arc = true
 
-  # s.ios.exclude_files = 'Classes/osx'
-  # s.osx.exclude_files = 'Classes/ios'
-  # s.public_header_files = 'Classes/**/*.h'
-  s.frameworks = 'Foundation', 'CoreGraphics', 'UIKit'
+  s.source_files = "T8VoiceRecordButton/*"
+  # s.resources = "Assets"
 
+  # s.ios.exclude_files = "Classes/osx"
+  # s.osx.exclude_files = "Classes/ios"
+  s.public_header_files = "Classes/**/*.h", "T8VoiceRecordButton/VoiceLib/*.h", 'T8VoiceRecordButton/UUProgressHUD/*.h'
+  s.frameworks = "Foundation", "CoreGraphics", "UIKit"
 end
