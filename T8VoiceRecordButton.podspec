@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   # s.osx.deployment_target = "10.7"
   s.requires_arc = true
 
-  s.source_files = "T8VoiceRecordButton/*"
+  s.source_files = "T8VoiceRecordButton/*", "T8VoiceRecordButton/VoiceLib/*", 'T8VoiceRecordButton/UUProgressHUD/*'
   # s.resources = "Assets"
 
   # s.ios.exclude_files = "Classes/osx"
