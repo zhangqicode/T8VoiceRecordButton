@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "T8VoiceRecordButton/*"
-  # s.resources = "Assets"
+  # s.resources = "T8VoiceRecordButton/*"
 
   # s.ios.exclude_files = "Classes/osx"
   # s.osx.exclude_files = "Classes/ios"
