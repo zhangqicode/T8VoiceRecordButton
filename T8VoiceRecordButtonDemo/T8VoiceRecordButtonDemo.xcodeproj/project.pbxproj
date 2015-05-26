@@ -14,11 +14,11 @@
 		6DA87E411B1316B300DF1494 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E401B1316B300DF1494 /* Images.xcassets */; };
 		6DA87E441B1316B300DF1494 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E421B1316B300DF1494 /* LaunchScreen.xib */; };
 		6DA87E501B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E4F1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m */; };
-		6DA87E5C1B13172700DF1494 /* T8VoiceRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */; };
-		6DA87E601B13194A00DF1494 /* UUProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */; };
-		6DA87E661B131D7400DF1494 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA87E631B131D7400DF1494 /* libmp3lame.a */; };
-		6DA87E671B131D7400DF1494 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA87E651B131D7400DF1494 /* Mp3Recorder.m */; };
-		6DA87E6A1B13236B00DF1494 /* Chat_record_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DA87E691B13236B00DF1494 /* Chat_record_circle.png */; };
+		6DB9EE431B14553500355150 /* Chat_record_circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 6DB9EE381B14553500355150 /* Chat_record_circle.png */; };
+		6DB9EE441B14553500355150 /* T8VoiceRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9EE3A1B14553500355150 /* T8VoiceRecordButton.m */; };
+		6DB9EE451B14553500355150 /* UUProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9EE3D1B14553500355150 /* UUProgressHUD.m */; };
+		6DB9EE461B14553500355150 /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DB9EE401B14553500355150 /* libmp3lame.a */; };
+		6DB9EE471B14553500355150 /* Mp3Recorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB9EE421B14553500355150 /* Mp3Recorder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,15 +45,15 @@
 		6DA87E491B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = T8VoiceRecordButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DA87E4E1B1316B300DF1494 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6DA87E4F1B1316B300DF1494 /* T8VoiceRecordButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = T8VoiceRecordButtonDemoTests.m; sourceTree = "<group>"; };
-		6DA87E5A1B13172700DF1494 /* T8VoiceRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T8VoiceRecordButton.h; sourceTree = "<group>"; };
-		6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T8VoiceRecordButton.m; sourceTree = "<group>"; };
-		6DA87E5E1B13194A00DF1494 /* UUProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressHUD.h; sourceTree = "<group>"; };
-		6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressHUD.m; sourceTree = "<group>"; };
-		6DA87E621B131D7400DF1494 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
-		6DA87E631B131D7400DF1494 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
-		6DA87E641B131D7400DF1494 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
-		6DA87E651B131D7400DF1494 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
-		6DA87E691B13236B00DF1494 /* Chat_record_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat_record_circle.png; sourceTree = "<group>"; };
+		6DB9EE381B14553500355150 /* Chat_record_circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Chat_record_circle.png; sourceTree = "<group>"; };
+		6DB9EE391B14553500355150 /* T8VoiceRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T8VoiceRecordButton.h; sourceTree = "<group>"; };
+		6DB9EE3A1B14553500355150 /* T8VoiceRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = T8VoiceRecordButton.m; sourceTree = "<group>"; };
+		6DB9EE3C1B14553500355150 /* UUProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UUProgressHUD.h; sourceTree = "<group>"; };
+		6DB9EE3D1B14553500355150 /* UUProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UUProgressHUD.m; sourceTree = "<group>"; };
+		6DB9EE3F1B14553500355150 /* lame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		6DB9EE401B14553500355150 /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		6DB9EE411B14553500355150 /* Mp3Recorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mp3Recorder.h; sourceTree = "<group>"; };
+		6DB9EE421B14553500355150 /* Mp3Recorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mp3Recorder.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA87E661B131D7400DF1494 /* libmp3lame.a in Frameworks */,
+				6DB9EE461B14553500355150 /* libmp3lame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +100,7 @@
 				6DA87E381B1316B200DF1494 /* AppDelegate.m */,
 				6DA87E3A1B1316B200DF1494 /* ViewController.h */,
 				6DA87E3B1B1316B300DF1494 /* ViewController.m */,
-				6DA87E591B13170400DF1494 /* T8VoiceRecordButton */,
+				6DB9EE361B14553500355150 /* T8VoiceRecordButton */,
 				6DA87E3D1B1316B300DF1494 /* Main.storyboard */,
 				6DA87E401B1316B300DF1494 /* Images.xcassets */,
 				6DA87E421B1316B300DF1494 /* LaunchScreen.xib */,
@@ -135,44 +135,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6DA87E591B13170400DF1494 /* T8VoiceRecordButton */ = {
+		6DB9EE361B14553500355150 /* T8VoiceRecordButton */ = {
 			isa = PBXGroup;
 			children = (
-				6DA87E681B13236B00DF1494 /* Images */,
-				6DA87E611B131D7400DF1494 /* VoiceLib */,
-				6DA87E5D1B13194A00DF1494 /* UUProgressHUD */,
-				6DA87E5A1B13172700DF1494 /* T8VoiceRecordButton.h */,
-				6DA87E5B1B13172700DF1494 /* T8VoiceRecordButton.m */,
+				6DB9EE371B14553500355150 /* Images */,
+				6DB9EE391B14553500355150 /* T8VoiceRecordButton.h */,
+				6DB9EE3A1B14553500355150 /* T8VoiceRecordButton.m */,
+				6DB9EE3B1B14553500355150 /* UUProgressHUD */,
+				6DB9EE3E1B14553500355150 /* VoiceLib */,
 			);
-			path = T8VoiceRecordButton;
-			sourceTree = SOURCE_ROOT;
+			name = T8VoiceRecordButton;
+			path = ../../T8VoiceRecordButton;
+			sourceTree = "<group>";
 		};
-		6DA87E5D1B13194A00DF1494 /* UUProgressHUD */ = {
+		6DB9EE371B14553500355150 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				6DA87E5E1B13194A00DF1494 /* UUProgressHUD.h */,
-				6DA87E5F1B13194A00DF1494 /* UUProgressHUD.m */,
+				6DB9EE381B14553500355150 /* Chat_record_circle.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6DB9EE3B1B14553500355150 /* UUProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				6DB9EE3C1B14553500355150 /* UUProgressHUD.h */,
+				6DB9EE3D1B14553500355150 /* UUProgressHUD.m */,
 			);
 			path = UUProgressHUD;
 			sourceTree = "<group>";
 		};
-		6DA87E611B131D7400DF1494 /* VoiceLib */ = {
+		6DB9EE3E1B14553500355150 /* VoiceLib */ = {
 			isa = PBXGroup;
 			children = (
-				6DA87E621B131D7400DF1494 /* lame.h */,
-				6DA87E631B131D7400DF1494 /* libmp3lame.a */,
-				6DA87E641B131D7400DF1494 /* Mp3Recorder.h */,
-				6DA87E651B131D7400DF1494 /* Mp3Recorder.m */,
+				6DB9EE3F1B14553500355150 /* lame.h */,
+				6DB9EE401B14553500355150 /* libmp3lame.a */,
+				6DB9EE411B14553500355150 /* Mp3Recorder.h */,
+				6DB9EE421B14553500355150 /* Mp3Recorder.m */,
 			);
 			path = VoiceLib;
-			sourceTree = "<group>";
-		};
-		6DA87E681B13236B00DF1494 /* Images */ = {
-			isa = PBXGroup;
-			children = (
-				6DA87E691B13236B00DF1494 /* Chat_record_circle.png */,
-			);
-			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,7 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DA87E6A1B13236B00DF1494 /* Chat_record_circle.png in Resources */,
+				6DB9EE431B14553500355150 /* Chat_record_circle.png in Resources */,
 				6DA87E3F1B1316B300DF1494 /* Main.storyboard in Resources */,
 				6DA87E441B1316B300DF1494 /* LaunchScreen.xib in Resources */,
 				6DA87E411B1316B300DF1494 /* Images.xcassets in Resources */,
@@ -277,11 +278,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6DA87E3C1B1316B300DF1494 /* ViewController.m in Sources */,
-				6DA87E5C1B13172700DF1494 /* T8VoiceRecordButton.m in Sources */,
+				6DB9EE441B14553500355150 /* T8VoiceRecordButton.m in Sources */,
 				6DA87E391B1316B200DF1494 /* AppDelegate.m in Sources */,
 				6DA87E361B1316B200DF1494 /* main.m in Sources */,
-				6DA87E671B131D7400DF1494 /* Mp3Recorder.m in Sources */,
-				6DA87E601B13194A00DF1494 /* UUProgressHUD.m in Sources */,
+				6DB9EE471B14553500355150 /* Mp3Recorder.m in Sources */,
+				6DB9EE451B14553500355150 /* UUProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +410,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/T8VoiceRecordButton/VoiceLib",
+					/Users/qizhang/workspace/gitHub/T8VoiceRecordButton/T8VoiceRecordButton/VoiceLib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -424,6 +426,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/T8VoiceRecordButton/VoiceLib",
+					/Users/qizhang/workspace/gitHub/T8VoiceRecordButton/T8VoiceRecordButton/VoiceLib,
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -482,6 +485,7 @@
 				6DA87E551B1316B300DF1494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6DA87E561B1316B300DF1494 /* Build configuration list for PBXNativeTarget "T8VoiceRecordButtonDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +494,7 @@
 				6DA87E581B1316B300DF1494 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
