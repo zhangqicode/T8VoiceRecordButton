@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   # s.osx.exclude_files = "Classes/ios"
   s.public_header_files = "Classes/**/*.h"
   s.frameworks = "Foundation", "CoreGraphics", "UIKit"
-  s.ios.library = 'libmp3lame'
+  s.vendored_libraries = 'libmp3lame.a'
 end
