@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "T8VoiceRecordButton/*"
-  s.resources = "T8VoiceRecordButton/*"
+  s.resources = "T8VoiceRecordButton/Resources/*"
 
   # s.ios.exclude_files = "Classes/osx"
   # s.osx.exclude_files = "Classes/ios"
   s.public_header_files = "Classes/**/*.h"
   s.frameworks = "Foundation", "CoreGraphics", "UIKit"
-  s.vendored_libraries = 'T8VoiceRecordButton/libmp3lame.a'
+  s.vendored_libraries = 'T8VoiceRecordButton/Libs/libmp3lame.a'
 end
